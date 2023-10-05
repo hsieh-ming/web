@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Times New Roman', Time;
+}
+header h1{
+    position: absolute;
+    top: 0;
+    line-height: 80px;
+    left: 40px;
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline white;
+    
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+   
+
+}
+header li{
+    font-size: 24px;
+    display: inline;
+    margin-right: 2vw;
+
+}
+header{
+    background-color: black; 
+    width: 100%;
+    height: 80px;
+}
+.context1{
+    display: flex;
+}
+.context1 img{
+    width: 50%;
+}
+.context2 {
+    height: 100vh;
+    background-image: url("image/Motorcycle\ in\ front\ of\ rice\ fields.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.context2 p{
+    color: white;
+    font-size: 68px;
+    line-height: 10vh;
+}
+.motto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.motto h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.motto p{
+    margin: 25PX 0;
+    font-size: 28px;
+}
