@@ -68,9 +68,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-
-
 }
 .motto h2{
     font-size: 3vw;
@@ -79,4 +76,13 @@ header{
 .motto p{
     margin: 25PX 0;
     font-size: 1.7vw;
+}
+.context3{
+    height: 70vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+
 }
