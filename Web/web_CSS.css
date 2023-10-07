@@ -19,7 +19,8 @@ header a{
 }
 header a:hover{
     text-decoration: underline white;
-    
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.125em;
 }
 header ul{
     position: absolute;
@@ -87,8 +88,9 @@ header{
 .context3 div{
     width: 300px;
     text-align: center;
+    font-size: 1.5vw;
 }
 .context3 img{
     width: 100%;
-    border-radius: 9999px;
+    
 }
