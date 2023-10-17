@@ -98,31 +98,41 @@ header{
     
 }
 .context4{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background-color: #E3D5CA;
-    height: 200px;
+    height: auto;
 }
-.context4 details{
+.Question_formatting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Question_formatting h2{
+    font-size: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+.total_FQA details{
+    margin-top: 15px;
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
-    width: 400px;
+    width: 70vw;
    
 }
-.context4 summary{
+.total_FQA summary{
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
 }
 
-.context4 details[open]{
+.total_FQA details[open]{
     padding: 0.5em;
 
 }
-.context4 details[open] summary{
+.total_FQA details[open] summary{
     border-bottom: 1px solid #aaa;
-    margin-bottom: 0.5em;-
+    margin-bottom: 0.5em;
 }
     
