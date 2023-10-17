@@ -103,12 +103,13 @@ header{
     flex-direction: column;
     background-color: #E3D5CA;
     height: 200px;
-    
 }
 .context4 details{
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
+    width: 400px;
+   
 }
 .context4 summary{
     font-weight: bold;
@@ -118,6 +119,7 @@ header{
 
 .context4 details[open]{
     padding: 0.5em;
+
 }
 .context4 details[open] summary{
     border-bottom: 1px solid #aaa;
