@@ -134,7 +134,7 @@ header{
 
 }
 .total_FQA details[open] summary{
-    border-bottom-style: none;
+    border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
 }
     
