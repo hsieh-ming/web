@@ -117,20 +117,22 @@ header{
     margin-top: 15px;
     border: 1px solid #aaa;
     border-radius: 5px;
-    padding: 0.5em 0.5em 0;
+    padding: 1.5em 1.5em 0;
     width: 70vw;
    
 }
+.total_FQA p {
+    font-size: 18px;
+}
 .total_FQA summary{
     font-weight: bold;
-    font-size: 20px;
-    margin: -0.5em -0.5em 0;
-    padding: 0.5em;
+    font-size: 30px;
+    margin: -0.7em -0.8em 0;
+    padding: 0.7em;
 }
 
 .total_FQA details[open]{
-    padding: 0.5em;
-    font-size: 15px;
+    padding: 1.5em;
 
 }
 .total_FQA details[open] summary{
