@@ -139,4 +139,8 @@ header{
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
 }
+footer{
+    display: flex;
+    justify-content: center;
+}
     
